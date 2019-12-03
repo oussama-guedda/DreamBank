@@ -1,72 +1,84 @@
-Symfony Standard Edition
+Bienvenue sur DreamBank  
 ========================
+![40% center](web/img/dreambank.png)
 
-Welcome to the Symfony Standard Edition - a fully-functional Symfony
-application that you can use as the skeleton for your new applications.
+DreamBank en tant qu'application GED permettent de traiter de plus en plus de documents, envoyés par de plus en plus de clients. Ensuite, elles permettent de conserver plus longtemps les informations telles que les relevés et les avis, en les conservant sur un support durable. Enfin, elles permettent d’échapper au coût de l’encre et du papier, ainsi qu’à ceux des transports et des NPAI (N’habite pas à l’adresse indiquée).
 
-For details on how to download and get started with Symfony, see the
-[Installation][1] chapter of the Symfony Documentation.
+Lien vers le projet 
+-------------------
+https://github.com/oussama-guedda/DreamBank
 
-What's inside?
---------------
+Languages utilisés
+-------------------
+ * framework Symfony
+ * php, Mysql
+ * html5, css3, Bootstrap 
+ * javascript
 
-The Symfony Standard Edition is configured with the following defaults:
+Requirements
+-------------------
+    PHP 7.1.3 or higher;
+    WampServer for ;
+    and the usual Symfony application requirements.
 
-  * An AppBundle you can use to start coding;
+Installation
+-------------------
 
-  * Twig as the only configured template engine;
+Download Symfony to install the symfony binary on your computer and run this command:
 
-  * Doctrine ORM/DBAL;
+  $ symfony new --demo my_project
 
-  * Swiftmailer;
+Alternatively, you can use Composer:
 
-  * Annotations enabled for everything.
+  $ composer create-project symfony/symfony-demo my_project
 
-It comes pre-configured with the following bundles:
+Usage
+-------------------
 
-  * **FrameworkBundle** - The core Symfony framework bundle
+There's no need to configure anything to run the application. If you have installed Symfony, run this command and access the application in your browser at the given URL (https://localhost:8000 by default):
 
-  * [**SensioFrameworkExtraBundle**][6] - Adds several enhancements, including
-    template and routing annotation capability
+  $ cd my_project/
+  $ symfony serve
 
-  * [**DoctrineBundle**][7] - Adds support for the Doctrine ORM
+If you don't have the Symfony binary installed, run php -S localhost:8000 -t public/ to use the built-in PHP web server or configure a web server like Nginx or Apache to run the application.
+Tests
 
-  * [**TwigBundle**][8] - Adds support for the Twig templating engine
+Execute this command to run **tests**:
 
-  * [**SecurityBundle**][9] - Adds security by integrating Symfony's security
-    component
+  $ cd my_project/
+  $ ./bin/phpunit
+  
+Structure du projet
+-------------------
 
-  * [**SwiftmailerBundle**][10] - Adds support for Swiftmailer, a library for
-    sending emails
+![70 center](web/img/structure.png)
 
-  * [**MonologBundle**][11] - Adds support for Monolog, a logging library
-
-  * **WebProfilerBundle** (in dev/test env) - Adds profiling functionality and
-    the web debug toolbar
-
-  * **SensioDistributionBundle** (in dev/test env) - Adds functionality for
-    configuring and working with Symfony distributions
-
-  * [**SensioGeneratorBundle**][13] (in dev env) - Adds code generation
-    capabilities
-
-  * [**WebServerBundle**][14] (in dev env) - Adds commands for running applications
-    using the PHP built-in web server
-
-  * **DebugBundle** (in dev/test env) - Adds Debug and VarDumper component
-    integration
-
-All libraries and bundles included in the Symfony Standard Edition are
-released under the MIT or BSD license.
-
-Enjoy!
-
-[1]:  https://symfony.com/doc/3.4/setup.html
-[6]:  https://symfony.com/doc/current/bundles/SensioFrameworkExtraBundle/index.html
-[7]:  https://symfony.com/doc/3.4/doctrine.html
-[8]:  https://symfony.com/doc/3.4/templating.html
-[9]:  https://symfony.com/doc/3.4/security.html
-[10]: https://symfony.com/doc/3.4/email.html
-[11]: https://symfony.com/doc/3.4/logging.html
-[13]: https://symfony.com/doc/current/bundles/SensioGeneratorBundle/index.html
-[14]: https://symfony.com/doc/current/setup/built_in_web_server.html
+configuration de parameters.yml
+-----------------------------
+parameters:
+   * database_host: 127.0.0.1
+   * database_port: null
+   * database_name: dreamBank
+   * database_user: root
+   * database_password: null
+   * mailer_transport: smtp
+   * mailer_host: 127.0.0.1
+   * mailer_user: null
+   * mailer_password: null
+   * secret: sqkldnqlkfcqklksqkffnkqsf
+   
+ Accessibilité 
+ ------------------
+ Les documents que nous traiterons seront au format odt ou pdf, un format libre, permettant d’assurer au maximum interopérabilité.
+ 
+ Pour finir, le site sera en Web Responsive et sera donc accessible sur PC et smartphone et e tant destine a une banque, il sera multilingue afin de permettre aux clients de toute origine d’y naviguer convenablement. Enfin, le site sera conforme aux standards W3C et les aura valide .
+ 
+ Outils utilisés
+ --------------------
+ 
+ - GanttProject, pour obtenir le diagramme de Gantt (Disponible sur : www.ganttproject.biz )
+ - Gimp, pour le design du logo (Disponible sur : www.gimp.org )
+ - WampServer, pour tester la base de données (Disponible sur : www.wampserver.com )
+ - PHPStorm, éditeur de code PHP (Disponible sur : www.jetbrains.com )
+ - Entreprise Architect, pour dessiner les diagrammes UML (Disponible sur : sparxsystems.com) (version d’essai)
+ - Postman, pour tester les requêtes SQL (Disponible sur : www.getpostman.com )
