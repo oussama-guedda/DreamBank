@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="{{ asset('img/favicon.png') }}"type="image/png">
+    <title>Profile </title>
+
+    <!-- Bootstrap -->
+    <link href="{{ asset('./build/css/bootstrap.css') }}" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="{{ asset('./css/font-awesome.min.css') }}" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="{{ asset('./build/css/custom.min.css') }}" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="{{ asset('./build/css/custom.min.css') }}" rel="stylesheet">
+</head>
+
+<body class="nav-md">
+<div class="container body">
+    <div class="main_container">
+        <div class="col-md-3 left_col">
+            <div class="left_col scroll-view">
+                <div class="navbar nav_title" style="border: 0;">
+                    <a href="{{ path('user_homepage') }}" class="site_title"><i class="fa"><img class="img-bar" src="{{ asset('img/favicon.png') }}" alt=""></i> <span>DreamBank</span></a>
+                </div>
+
+                <div class="clearfix"></div>
+
+                <!-- menu profile quick info -->
+                <div class="profile clearfix">
+                    <div class="profile_pic">
+                        <img src="{{ user.image.url }}" alt="{{ user.image.alt }}" class="img-circle profile_img">
+                    </div>
+                    <div class="profile_info">
+                        <span>Welcome,</span>
+                        <h2>{{ user.username }}</h2>
+                    </div>
+                </div>
+                <!-- /menu profile quick info -->
+
+                <br />
+
+                <!-- sidebar menu -->
+                <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                    <div class="menu_section">
+                        <h3>General</h3>
+                        <ul class="nav side-menu">
+                            <li><a><i class="fa fa-home"></i> profile <span class="fa fa-chevron-down"></span></a>
+                                <ul class="nav child_menu">
+                                    <li><a href="{{ path('user_modifierpage') }}">modifier</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="{{ path('fos_user_change_password') }}"><i class="fa fa-table"></i> Reclamation </a>
+
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <!-- /sidebar menu -->
+
+            </div>
+        </div>
+
+        <!-- top navigation -->
+        <div class="top_nav">
+            <div class="nav_menu">
+                <nav>
+                    <div class="nav toggle">
+                        <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+                    </div>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="">
+                            <a href="{{ asset('javascript:;') }}" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                <img src="{{ user.image.url }}" alt="">{{ user.username }}
+                                <span class=" fa fa-angle-down"></span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-usermenu pull-right">
+                                <li><a href="{{ path('user_homepage') }}"> Profile</a></li>
+                                <li><a href="{{ path('fos_user_security_logout') }}"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- /top navigation -->
+
+        {% block content %}
+            <!-- page content -->
+            <div class="right_col" role="main">
+                <div class="">
+                    <div class="page-title">
+                        <div class="title_left">
+                            <h3>User Profile</h3>
+                        </div>
+
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="x_panel">
+                                <div class="x_title">
+                                    <h2>User infos <small>infos personnelles</small></h2>
+                                    <ul class="nav navbar-right panel_toolbox">
+                                        <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                        </li>
+
+                                        <li><a class="close-link"><i class="fa fa-close"></i></a>
+                                        </li>
+                                    </ul>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="x_content">
+                                    <div class="col-md-3 col-sm-3 col-xs-12 profile_left">
+                                        <div class="profile_img">
+                                            <div id="crop-avatar">
+                                                <!-- Current avatar -->
+                                                <img class="img-responsive avatar-view" src="{{ user.image.url }}" alt="Avatar" title="Change the avatar">
+                                            </div>
+                                        </div>
+                                        <h3>{{ user.username }} {{ user.lastName }}</h3>
+
+                                        <ul class="list-unstyled user_data">
+                                            <li><i class="fa fa-map-marker user-profile-icon"></i> {{ user.adresse }}</li>
+
+                                            <li class="m-top-xs">
+                                                <i class="fa fa-external-link user-profile-icon"></i>
+                                                <a href="#" target="_blank">{{ user.email }}</a>
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                    <div class="col-md-9 col-sm-9 col-xs-12">
+
+                                        <div class="" role="tabpanel" data-example-id="togglable-tabs">
+                                            <ul id="myTab" class="nav nav-tabs bar_tabs" role="tablist">
+                                                <li role="presentation" class=""><a href="#tab_content3" role="tab" id="profile-tab2" data-toggle="tab" aria-expanded="true">Profile</a>
+                                                </li>
+                                                <li role="presentation" class=""><a href="#tab_content2" role="tab" id="profile-tab" data-toggle="tab" aria-expanded="true">Last Login</a>
+                                                </li>
+                                                <li role="presentation" class=""><a href="#tab_content1" role="tab" id="profile-tab" data-toggle="tab" aria-expanded="true">document</a>
+                                                </li>
+                                            </ul>
+                                            <div id="myTabContent" class="tab-content">
+                                                <div role="tabpanel" class="tab-pane fade" id="tab_content2" aria-labelledby="profile-tab">
+                                                    <div class="col-md-6">
+                                                        <div id="reportrange" class="pull-right" style="margin-top: 5px; background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #E6E9ED">
+                                                            <i class="glyphicon glyphicon-calendar fa fa-calendar"></i>
+                                                            <span>{{ user.lastLogin|date('Y-m-d H:i:s') }}</span> <b class="caret"></b>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div role="tabpanel" class="tab-pane fade" id="tab_content1" aria-labelledby="profile-tab">
+                                                    <div class="col-md-6">
+                                                        <div id="reportrange" class="pull-right" style="margin-top: 5px; background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #E6E9ED">
+                                                            <a href="#" class="easyadmin-thumbnail" data-featherlight="#easyadmin-lightbox-{{ user.id }}" data-featherlight-close-on-click="anywhere">
+                                                                {# the second parameter is the name of the property with the UploadableField annotation #}
+                                                                <a href="{{ vich_uploader_asset(user, 'contractFile') }}">document</a>
+                                                            </a>
+
+                                                            <div id="easyadmin-lightbox-{{ user.id }}" class="easyadmin-lightbox">
+                                                                {# the second parameter is the name of the property with the UploadableField annotation #}
+                                                                <iframe src="{{ vich_uploader_asset(user, 'contractFile') }}" width="350" height="250" align="center">file</iframe>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div role="tabpanel" class="tab-pane fade active in" id="tab_content3" aria-labelledby="profile-tab">
+
+                                                    <li>
+                                                        <ul>{{ user.IBAN }}</ul>
+                                                        <ul>{{ user.phone }}</ul>
+                                                    </li>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endblock %}
+        <!-- /page content -->
+    </div>
+</div>
+
+<!-- jQuery -->
+<script src="{{ asset('./vendors/jquery/dist/jquery.min.js') }}"></script>
+<!-- Bootstrap -->
+<script src="{{ asset('./vendors/bootstrap/dist/js/bootstrap.min.js') }}"></script>
+<!-- bootstrap-progressbar -->
+<script src="{{ asset('./vendors/bootstrap-progressbar/bootstrap-progressbar.min.js') }}"></script>
+<!-- Flot -->
+<script src="{{ asset('./vendors/Flot/jquery.flot.js') }}"></script>
+<script src="{{ asset('./vendors/Flot/jquery.flot.pie.js') }}"></script>
+<script src="{{ asset('./vendors/Flot/jquery.flot.time.js') }}"></script>
+<script src="{{ asset('./vendors/Flot/jquery.flot.stack.js') }}"></script>
+<script src="{{ asset('./vendors/Flot/jquery.flot.resize.js') }}"></script>
+<!-- Flot plugins -->
+<script src="{{ asset('./vendors/flot.orderbars/js/jquery.flot.orderBars.js') }}"></script>
+<script src="{{ asset('./vendors/flot-spline/js/jquery.flot.spline.min.js') }}"></script>
+<script src="{{ asset('./vendors/flot.curvedlines/curvedLines.js') }}"></script>
+<!-- DateJS -->
+<script src="{{ asset('./vendors/DateJS/build/date.js') }}"></script>
+<!-- bootstrap-daterangepicker -->
+<script src="{{ asset('./vendors/moment/min/moment.min.js') }}"></script>
+<script src="{{ asset('./vendors/bootstrap-daterangepicker/daterangepicker.js') }}"></script>
+
+<!-- Custom Theme Scripts -->
+<script src="{{ asset('./js/custom.min.js') }}"></script>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+{% extends 'accueil/accueil.html.twig' %}
+{% block content %}
+
+<!--================Home Banner Area =================-->
+        <section class="banner_area">
+            <div class="banner_inner d-flex align-items-center">
+            	<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+				<div class="container">
+					<div class="banner_content text-center">
+						<h2>{{'translate.link13'|trans}}</h2>
+						<div class="page_link">
+							<a href="{{ path('index') }}">{{'translate.link1'|trans}}</a>
+							<a href="{{ path('about-us') }}">{{'translate.link3'|trans}}</a>
+						</div>
+					</div>
+				</div>
+            </div>
+        </section>
+        <!--================End Home Banner Area =================-->
+        
+        <!--================Start Features Area =================-->
+	<section class="section_gap features_area">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-8 text-center">
+					<div class="main_title">
+						<h2>{{'translate_about-us.link1'|trans}}</h2>
+						<p>{{'translate_about-us.link2'|trans}}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+{% endblock %}

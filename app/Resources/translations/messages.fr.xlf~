@@ -1,0 +1,241 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+        	<trans-unit id="translate_title">
+                <source>translate.title</source>
+                <target>GED</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link1">
+                <source>translate.link1</source>
+                <target>Accueil</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link2">
+                <source>translate.link2</source>
+                <target>Contact</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link3">
+                <source>translate.link3</source>
+                <target>&#192; Propos de nous</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link4">
+                <source>translate.link4</source>
+                <target>Se Connecter</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link5">
+                <source>translate.link5</source>
+                <target>Commencez Maintenant</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link6">
+                <source>translate.link6</source>
+                <target>Les fonctionnalites de notre site</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link7">
+                <source>translate.link7</source>
+                 <target>Un site pour la Gestion de Documents</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link8">
+                <source>translate.link8</source>
+                <target>Des Visuels Plaisants</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link9">
+                <source>translate.link9</source>
+                <target>S&#233;curit&#233;</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link10">
+                <source>translate.link10</source>
+                <target>Convivial</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link11">
+                <source>translate.link11</source>
+                <target>Disponible en plusieurs langues</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link12">
+                <source>translate.link12</source>
+                <target>Disponible &#224; la fois en Anglais et en Fran&#231;ais</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link13">
+                <source>translate.link13</source>
+                <target>En Apprendre Plus</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link14">
+                <source>translate.link14</source>
+                <target>Acc&#232;ssible Partout</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link15">
+                <source>translate.link15</source>
+                <target>Acc&#232;ssible sur votre Portable</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link16">
+                <source>translate.link16</source>
+                <target>Pourquoi ne pas commencer maintenant ?</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link17">
+                <source>translate.link17</source>
+                <target>Mentions L&#233;gales</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link18">
+                <source>translate.link18</source>
+                <target>Voir les mentions l&#233;gales</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link19">
+                <source>translate.link19</source>
+                <target>Une banque si bien que vous penserez r&#233;ver.</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link20">
+                <source>translate.link20</source>
+                <target>Notre site offre de nombreuses fonctionnalit&#233;es pour les utilisateurs tout en prot&#233;geant attentivement vos donn&#233;es. Il est tr&#232;s facile &#224; naviguer et aussi acc&#232;ssible que possible aux usagers.</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link21">
+                <source>translate.link21</source>
+                <target>Notre Site a &#233;t&#233; construit attentivement pour para&#238;tre aussi plaisant que possible. Chaque page a &#233;t&#233; &#233;tudi&#233;e avec soin.</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link22">
+                <source>translate.link22</source>
+                <target>Votre mot de passe est attentivement crypt&#233;. De plus, notre Pare-feu prot&#232;ge vos informations personnelles et emp&#234;che la connexion d'intrus.</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link23">
+                <source>translate.link23</source>
+                <target>Notre Site est intuitif, vous pouvez donc naviguer ais&#233;ment. Il est responsif et peut &#234;tre utilis&#233;sur n'importe quel &#233;cran.</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link24">
+                <source>translate.link24</source>
+                <target>Notre GED est disponible &#224; la fois en anglais et en fran&#231;ais pour am&#233;liorer l'exp&#233;rience des usagers. Biens&#251;r, d'autres langues seront ajout&#233;es.</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link25">
+                <source>translate.link25</source>
+                <target>Notre site est responsif et sera disponible &#224; la fois sur vos PC et vos portables.</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link26">
+                <source>translate.link26</source>
+                <target>Notre outils pour la gestion de documents &#233;l&#233;ctroniques est disponible sur tous les navigateurs et sera accessible sur la plupart des syst&#232;mes. Il facilitera votre gestion de documents financiers ainsi que la notre.</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link27">
+                <source>translate.link27</source>
+                <target>Vous avez seulement &#224; vous connecter pour commencer, donc pourquoi ne le fairiez vous pas ?</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link28">
+                <source>translate.link28</source>
+                <target>Cette page est la version modifi&#233;e d'un template gratuit et nous remercions son cr&#233;ateur original.</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link29">
+                <source>translate.link29</source>
+                <target>Restez inform&#233; sur nos nouvelles fonctionnalit&#233;es</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_contact_link1">
+                <source>translate_contact.link1</source>
+                <target>Contactez Nous</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_contact_link2">
+                <source>translate_contact.link2</source>
+                <target>Lundi au Vendredi - 9h &#224; 18h</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_contact_link3">
+                <source>translate_contact.link3</source>
+                <target>Envoyez nous vos requ&#234;tes n'importe quand !</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_contact_link4">
+                <source>translate_contact.link4</source>
+                <target>Universit&#233; de Picardie Jules Verne</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_contact_link5">
+                <source>translate_contact.link5</source>
+                <target>Envoyer le Message</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_about-us_link1">
+                <source>translate_about-us.link1</source>
+                <target>Un Site pour g&#233;rer des documents &#233;l&#233;ctroniques</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_notice_link1">
+                <source>translate_notice.link1</source>
+                <target>Raison Sociale</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_notice_link2">
+                <source>translate_notice.link2</source>
+                <target>Adresse du Si&#232;ge social</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_notice_link3">
+                <source>translate_notice.link3</source>
+                <target>Directeur G&#233;n&#233;ral</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_notice_link4">
+                <source>translate_notice.link4</source>
+                <target>Num&#233;ro T&#233;l&#233;phone</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_notice_link5">
+                <source>translate_notice.link5</source>
+                <target>Adresse mail</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_notice_link6">
+                <source>translate_notice.link6</source>
+                <target>SIRET</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_notice_link7">
+                <source>translate_notice.link7</source>
+                <target>SIREN</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_notice_link8">
+                <source>translate_notice.link8</source>
+                <target>Capital de la Compagnie</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_notice_link9">
+                <source>translate_notice.link9</source>
+                <target>D&#233;claration CNIL</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_notice_link10">
+                <source>translate_notice.link10</source>
+                <target>Nom de l'h&#233;bergeur</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_notice_link11">
+                <source>translate_notice.link11</source>
+                <target>Adresse de l'h&#233;bergeur</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

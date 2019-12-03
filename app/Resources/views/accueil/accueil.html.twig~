@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="{{ asset('img/favicon.png') }}" type="image/png">
+    <title> DreamBank - {{'translate.title'|trans}} </title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ asset('vendors/linericon/style.css') }}">
+    <!-- main css -->
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+
+</head>
+
+<body>
+<!--================Header Menu Area =================-->
+<header class="header_area">
+    <div class="main_menu">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <a class="navbar-brand logo_h" href={{ path('index') }}><img src="{{ asset('img/logo.png') }}" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav menu_nav justify-content-center">
+                        <li class="nav-item active"><a class="nav-link" href={{ path('index') }}>{{'translate.link1'|trans}}</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ path('contact') }}">{{'translate.link2'|trans}}</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ path('about-us') }}">{{'translate.link3'|trans}}</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="nav-item"><a href={{ path('fos_user_security_login') }} class="primary_btn text-uppercase">{{'translate.link4'|trans}}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+<!--================Header Menu Area =================-->
+{% block content %}
+<!--================Home Banner Area =================-->
+<section class="home_banner_area">
+    <div class="banner_inner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="banner_content">
+                        <h2>
+                            DreamBank
+                        </h2>
+                        <p> {{'translate.link19'|trans}} </p>
+                        <div class="d-flex align-items-center">
+                            <a class="primary_btn" href={{ path('fos_user_security_login') }}><span>{{'translate.link5'|trans}}</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="home_right_img">
+                        <img class="img-fluid" src="{{ asset('img/banner/home-right.png') }}" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================End Home Banner Area =================-->
+
+<!--================Start Features Area =================-->
+<section class="section_gap features_area">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <div class="main_title">
+                    <p class="top_title"> {{'translate.link6'|trans}}</p>
+                    <h2>{{'translate.link7'|trans}}</h2>
+                    <p>{{'translate.link20'|trans}}</p>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="left_features">
+                    <img class="img-fluid" src="{{ asset('img/f-img.png') }}" alt="">
+                </div>
+            </div>
+            <div class="col-lg-5 offset-lg-1">
+                <!-- single features -->
+                <div class="single_feature">
+                    <div class="feature_head">
+                        <span class="lnr lnr-screen"></span>
+                        <h4>{{'translate.link8'|trans}}</h4>
+                    </div>
+                    <div class="feature_content">
+                        <p>{{'translate.link21'|trans}}</p>
+                    </div>
+                </div>
+                <!-- single features -->
+                <div class="single_feature">
+                    <div class="feature_head">
+                        <span class="lnr lnr-screen"></span>
+                        <h4>{{'translate.link9'|trans}}</h4>
+                    </div>
+                    <div class="feature_content">
+                        <p>{{'translate.link22'|trans}}</p>
+                    </div>
+                </div>
+                <!-- single features -->
+                <div class="single_feature">
+                    <div class="feature_head">
+                        <span class="lnr lnr-screen"></span>
+                        <h4>{{'translate.link10'|trans}}</h4>
+                    </div>
+                    <div class="feature_content">
+                        <p>{{'translate.link23'|trans}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================End Features Area =================-->
+
+<!--================Recent Update Area =================-->
+<section class="recent_update_area">
+    <div class="container">
+        <div class="recent_update_inner">
+            <div class="row recent_update_text align-items-center">
+                <div class="col-lg-5">
+                    <div class="common_style">
+                        <p class="line">{{'translate.link11'|trans}}</p>
+                        <h3>{{'translate.link12'|trans}}</h3>
+                        <p>{{'translate.link24'|trans}}</p>
+                        <a class="primary_btn" href="{{ path('about-us') }}"><span>{{'translate.link13'|trans}}</span></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-right">
+                    <div class="chart_img">
+                        <img class="img-fluid" src="{{ asset('img/multilingue.png') }}" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================ Recent Update Area =================-->
+
+<!--================Start Big Features Area =================-->
+<section class="section_gap big_features">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <div class="main_title">
+                    <p class="top_title">Features Specifications</p>
+                    <h2>Amazing Features That make it Awesome!</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row features_content">
+            <div class="col-lg-4 offset-lg-1">
+                <div class="big_f_left">
+                    <img class="img-fluid" src="{{ asset('img/f-img1.png') }}" alt="">
+                </div>
+            </div>
+            <div class="col-lg-4 offset-lg-2">
+                <div class="common_style">
+                    <p class="line">Modern Daesign Trends</p>
+                    <h3>We Believe that <br /> Inner beauty Lasts Long</h3>
+                    <p>inappropriate behavior is often laughed off as boys will be boys, women face higher conduct standards especially in the workplace. Thats why its crucial that as women.</p>
+                    <a class="primary_btn" href="{{ path('about-us') }}"><span>{{'translate.link13'|trans}}</span></a>
+                </div>
+            </div>
+            <div class="border-line"></div>
+            <img class="shape1" src="{{ asset('img/shape1.png') }}" alt="">
+            <img class="shape2" src="{{ asset('img/shape2.png') }}" alt="">
+            <img class="shape3" src="{{ asset('img/shape1.png') }}" alt="">
+        </div>
+
+        <div class="row _content bottom-features">
+            <div class="col-lg-5">
+                <div class="common_style">
+                    <p class="line">{{'translate.link14'|trans}}</p>
+                    <h3>{{'translate.link15'|trans}}</h3>
+                    <p>{{'translate.link25'|trans}}</p>
+                    <a class="primary_btn" href="{{ path('about-us') }}"><span>{{'translate.link13'|trans}}</span></a>
+                </div>
+            </div>
+            <div class="col-lg-5 offset-lg-2">
+                <div class="big_f_left">
+                    <img class="img-fluid" src="{{ asset('img/phone.png') }}" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================End Big Features Area =================-->
+
+<!--================Srart Pricing Area =================-->
+<section class="price_area section_gap">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <div class="main_title">
+                    <p class="top_title">Features Specifications</p>
+                    <h2>Amazing Features That make it Awesome!</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                </div>
+            </div>
+        </div>
+        <div class="price_inner row justify-content-center">
+            <div class="col-lg-4 col-md-6">
+                <div class="price_item">
+                    <div class="price_head">
+                        <h4>Real Basic</h4>
+                    </div>
+                    <div class="price_body">
+                        <ul class="list">
+                            <li><a href="#">2.5 GB Space</a></li>
+                            <li><a href="#">Secure Online Transfer</a></li>
+                            <li><a href="#">Unlimited Styles</a></li>
+                            <li><a href="#">Customer Service</a></li>
+                        </ul>
+                    </div>
+                    <div class="price_footer">
+                        <h3><span class="dlr">$</span> 39</h3>
+                        <a class="primary_btn" href="#"><span>Get Started</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="price_item">
+                    <div class="price_head">
+                        <h4>Real Standard</h4>
+                    </div>
+                    <div class="price_body">
+                        <ul class="list">
+                            <li><a href="#">10 GB Space</a></li>
+                            <li><a href="#">Secure Online Transfer</a></li>
+                            <li><a href="#">Unlimited Styles</a></li>
+                            <li><a href="#">Customer Service</a></li>
+                        </ul>
+                    </div>
+                    <div class="price_footer">
+                        <h3><span class="dlr">$</span> 69</h3>
+                        <a class="primary_btn" href={{ path('fos_user_security_login') }}><span>Get Started</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="price_item">
+                    <div class="price_head">
+                        <h4>Real Ultimate</h4>
+                    </div>
+                    <div class="price_body">
+                        <ul class="list">
+                            <li><a href="#">Unlimited Space</a></li>
+                            <li><a href="#">Secure Online Transfer</a></li>
+                            <li><a href="#">Unlimited Styles</a></li>
+                            <li><a href="#">Customer Service</a></li>
+                        </ul>
+                    </div>
+                    <div class="price_footer">
+                        <h3><span class="dlr">$</span> 99</h3>
+                        <a class="primary_btn" href="#"><span>Get Started</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================End Pricing Area =================-->
+
+<!--================Impress Area =================-->
+<section class="impress_area">
+    <div class="container">
+        <div class="impress_inner">
+            <h2> {{'translate.link16'|trans}} </h2>
+            <p>{{'translate.link26'|trans}} <br> <br>{{'translate.link27'|trans}}</p>
+            <a class="primary_btn" href={{ path('fos_user_security_login') }}><span> {{'translate.link4'|trans}} </span></a>
+        </div>
+    </div>
+</section>
+<!--================End Impress Area =================-->
+{% endblock %}
+<!--================Footer Area =================-->
+<footer class="footer_area">
+    <div class="container">
+        <div class="row footer_inner">
+            <div class="col-lg-5 col-sm-6">
+                <aside class="f_widget ab_widget">
+                    <div class="f_title">
+                        <h3>Credits</h3>
+                    </div>
+                    <p>{{'translate.link28'|trans}}</p>
+                    <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                </aside>
+            </div>
+            <div class="col-lg-5 col-sm-6">
+                <aside class="f_widget news_widget">
+                    <div class="f_title">
+                        <h3>Newsletter</h3>
+                    </div>
+                    <p>{{'translate.link29'|trans}}</p>
+                    <div id="mc_embed_signup">
+                        <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                              method="get" class="subscribe_form relative">
+                            <div class="input-group d-flex flex-row">
+                                <input name="EMAIL" placeholder="Enter email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '"
+                                       required="" type="email">
+                                <button class="btn sub-btn"><span class="lnr lnr-arrow-right"></span></button>
+                            </div>
+                        </form>
+                    </div>
+                </aside>
+            </div>
+            <div class="col-lg-2">
+                <aside class="f_widget social_widget">
+                    <div class="f_title">
+                        <h3>{{'translate.link17'|trans}}</h3>
+                    </div>
+                    <p><a href="{{ path('notice') }}">{{'translate.link18'|trans}}</a> </p>
+                </aside>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--================End Footer Area =================-->
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+<script src="{{ asset('js/jquery-3.2.1.min.js') }}"></script>
+<script src="{{ asset('js/bootstrap.min.js') }}"></script>
+<!--gmaps Js-->
+<script src="{{ asset('js/theme.js') }}"></script>
+
+</body>
+
+</html>

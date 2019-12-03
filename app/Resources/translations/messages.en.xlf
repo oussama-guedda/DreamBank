@@ -1,0 +1,291 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+        	<trans-unit id="translate_title">
+                <source>translate.title</source>
+                <target>EDG</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link1">
+                <source>translate.link1</source>
+                <target>Home</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link2">
+                <source>translate.link2</source>
+                <target>Contact</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link3">
+                <source>translate.link3</source>
+                <target>About Us</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link4">
+                <source>translate.link4</source>
+                <target>Log In</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link5">
+                <source>translate.link5</source>
+                <target>Get Started</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link6">
+                <source>translate.link6</source>
+                <target>Our Website features</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link7">
+                <source>translate.link7</source>
+                <target>A Website for Document Gestion</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link8">
+                <source>translate.link8</source>
+                <target>Pleasing Visuals</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link9">
+                <source>translate.link9</source>
+                <target>Security</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link10">
+                <source>translate.link10</source>
+                <target>User-Friendly</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link11">
+                <source>translate.link11</source>
+                <target>Available in multiple tongues</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link12">
+                <source>translate.link12</source>
+                <target>Available in both English and French</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link13">
+                <source>translate.link13</source>
+                <target>Learn More</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link14">
+                <source>translate.link14</source>
+                <target>Accessible Everywhere</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link15">
+                <source>translate.link15</source>
+                <target>Available on Your Phone</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link16">
+                <source>translate.link16</source>
+                <target>Why not start now ?</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link17">
+                <source>translate.link17</source>
+                <target>Legal Notice</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link18">
+                <source>translate.link18</source>
+                <target>See the Legal Notice</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link19">
+                <source>translate.link19</source>
+                <target>A bank so good, you will think you are dreaming.</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link20">
+                <source>translate.link20</source>
+                <target>Our Website offers many features for the users while carefully protecting your data. It is very easy to navigate and is as accessible to every user as possible.</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link21">
+                <source>translate.link21</source>
+                <target>Our Website has been carefully crafted to look as pleasing as it possibly can. Every page has been looked at with care.</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link22">
+                <source>translate.link22</source>
+                <target>Your password is carefully crypted. Furthermore, our Firewall protects your personal informations and prevents the connexion of intruders.</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link23">
+                <source>translate.link23</source>
+                <target>Our Website is intuitive so you can navigate it easily. It is responsive and can be used on any monitor.</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link24">
+                <source>translate.link24</source>
+                <target>Our EDG is available in both english and french to ease the experience of more users. Of course, more tongues are coming.</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link25">
+                <source>translate.link25</source>
+                <target>Our Website is responsive and will be available both on your PCs and your phones.</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link26">
+                <source>translate.link26</source>
+                <target>Our tool for the gestion of electronic documents is available on all navigators and will be accessible on most systems. It will ease your gestion of financial documents as well as ours.</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link27">
+                <source>translate.link27</source>
+                <target>You only have to log in to start, so why shouldn't you ?</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link28">
+                <source>translate.link28</source>
+                <target>This page is the modified version of a free template and we thank its original creator.</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link29">
+                <source>translate.link29</source>
+                <target>Stay updated with our new features</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link30">
+                <source>translate.link30</source>
+                <target>Futher Features</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link31">
+                <source>translate.link31</source>
+                <target>A Website on which Documents are easily distributed</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link32">
+                <source>translate.link32</source>
+                <target>You can now not only be informed rapidly, it is now possible to follow and work easily.</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link33">
+                <source>translate.link33</source>
+                <target>Further Details</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link34">
+                <source>translate.link34</source>
+                <target>We give you many tools and we plan to continue</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link35">
+                <source>translate.link35</source>
+                <target>We not only offer a translation, we give a diffusion system and multiple ways to react. You can for instance send mails to the administrateur or his office.</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link36">
+                <source>translate.link36</source>
+                <target>Our Advantages</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link37">
+                <source>translate.link37</source>
+                <target>No matter what you seek, with DreamBank, you are winner.</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_link38">
+                <source>translate.link38</source>
+                <target>Jump right into our website knowing that you are saving money as we are. Furthermore, you are saving the planet by reducing the number of cut trees.</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_contact_link1">
+                <source>translate_contact.link1</source>
+                <target>Contact Us</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_contact_link2">
+                <source>translate_contact.link2</source>
+                <target>Monday to Friday -  9am to 6 pm</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_contact_link3">
+                <source>translate_contact.link3</source>
+                <target>Send us your query anytime!</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_contact_link4">
+                <source>translate_contact.link4</source>
+                <target>University of Picardie Jules Verne</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_contact_link5">
+                <source>translate_contact.link5</source>
+                <target>Send Message</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_about-us_link1">
+                <source>translate_about-us.link1</source>
+                <target>A Website to manage electronic documents</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_about-us_link2">
+                <source>translate_about-us.link2</source>
+                <target>Our website is managed by the financial institution DreamBank and is aimed at its clients. We are looking towards the future and are modernasing the gestion of electronic documents. We aim at managing all he documents of the company.</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_notice_link1">
+                <source>translate_notice.link1</source>
+                <target>Company name</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_notice_link2">
+                <source>translate_notice.link2</source>
+                <target>Head Office address</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_notice_link3">
+                <source>translate_notice.link3</source>
+                <target>Chief Executive Officer</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_notice_link4">
+                <source>translate_notice.link4</source>
+                <target>Telephone Number</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_notice_link5">
+                <source>translate_notice.link5</source>
+                <target>Mail Adress</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_notice_link6">
+                <source>translate_notice.link6</source>
+                <target>SIRET</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_notice_link7">
+                <source>translate_notice.link7</source>
+                <target>SIREN</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_notice_link8">
+                <source>translate_notice.link8</source>
+                <target>Company's capital</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_notice_link9">
+                <source>translate_notice.link9</source>
+                <target>CNIL Declaration</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_notice_link10">
+                <source>translate_notice.link10</source>
+                <target>Host Name</target>
+            </trans-unit>
+            
+            <trans-unit id="translate_notice_link11">
+                <source>translate_notice.link11</source>
+                <target>Host Adress</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,13 @@
+user_homepage:
+    path:     /home
+    defaults: { _controller: UserBundle:Default:index }
+
+user_modifierpage:
+    path:     /modifier
+    defaults: { _controller: UserBundle:Default:modifier }
+
+user_modifier_suite:
+    path: /modifierSuite/{id}
+    defaults: { _controller: UserBundle:Default:modifierSuite }
+    requirements:
+        _method: POST
